@@ -10,7 +10,7 @@
 
 		div = $( '<div>' );
 		div.load(
-			'http://127.0.0.1/demo-toggle/ .svl-demos',
+			'https://seele.svlstudios.com/ .svl-demos',
 			function() {
 				var demoWrap = div.find( '.demo-wrap' );
 
@@ -30,7 +30,7 @@
 								var url   = $( this ).find( '.title-link' ).attr( 'href' );
 								var title = $( this ).find( '.title-link h4' ).text();
 
-								if ( '' !== title && $( '.svl-demo-window ul' ).append( '<li><a title="Qixi ' + title + ' Demo" href="' + url + '" target=_blank><img src="' + img + '" alt="Qixi ' + title + ' Demo"></a></li>' ) ) {
+								if ( '' !== title && $( '.svl-demo-window ul' ).append( '<li><a title="Seele ' + title + ' Demo" href="' + url + '" target=_blank><img src="' + img + '" alt="Qixi ' + title + ' Demo"></a></li>' ) ) {
 									count++;
 								}
 							}
